@@ -9,5 +9,5 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 sudo yum -y install git 
 git clone https://github.com/thudumrakesh/docker-compose.git
-cd /docker-compose
+cd docker-compose
 docker-compose up -d
